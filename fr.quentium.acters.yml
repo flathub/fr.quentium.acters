@@ -15,9 +15,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/QuentiumYT/Stacer.git
-        #tag: v1.6.2
-        #commit: e55330ca3f043945fdffd7ac5b8283e7ccaee9f9
-        commit: 5b3073d6bcdf75a72f151a532e1c0a279b3d164f
+        tag: v1.6.3
+        commit: 5671215dc2f36e340b5f101ef0355119aef8241d
         x-checker-data:
           type: git
           tag-pattern: "^v[0-9]+\\.[0-9]+\\.[0-9]+$"
