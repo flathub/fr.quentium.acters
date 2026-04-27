@@ -12,9 +12,8 @@ finish-args:
 modules:
   - name: acters
     buildsystem: cmake-ninja
-    build-options:
-      env:
-        FLATHUB_BUILD: 'ON'
+    config-opts:
+      - -DFLATHUB_BUILD=ON
     sources:
       - type: git
         url: https://github.com/QuentiumYT/Stacer.git
